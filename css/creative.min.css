@@ -178,7 +178,7 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    background-position: 90% 10%;
+    background-position: 95% 5%;
     background-image: url(../img/header.jpg);
     color: #fff
 }
