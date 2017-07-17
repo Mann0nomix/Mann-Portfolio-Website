@@ -9,7 +9,7 @@
     <meta name="description" content="An online portfolio of Eustace R Mann Jr, a skilled Game and Virtual Reality Developer. Click here to see his games and apps!">
     <meta name="author" content="Eustace R Mann Jr">
     <meta name="keywords" content="games, apps, development, dev, game, portfolio, Mann, Jr, Eustace, EJ, java, android, c#, unity, twitch, twitter, streaming, music, edm, dj">
-    
+
     <link rel="author" href="https://plus.google.com/+EJMann"/>
 
     <meta property='og:title' content="Eustace R Mann Jr" />
@@ -27,7 +27,7 @@
     <meta name="twitter:title" content="Eustace R Mann Jr">
     <meta name="twitter:description" content="An online portfolio of Eustace R Mann Jr, a skilled Game and Virtual Reality Developer. Click here to see his games and apps!">
     <meta name="twitter:image" content="http://ejmanngamedev.com/img/portfolio/thumbnails/1.png">
-    
+
 
     <title>Eustace R Mann Jr</title>
 
@@ -44,6 +44,9 @@
 
     <!-- Theme CSS -->
     <link href="css/creative.min.css" rel="stylesheet">
+
+    <!-- A-Frame 0.6.0 -->
+    <script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -421,6 +424,40 @@
                             </tr>
                         </tbody>
                     </table>
+                    <table class="table table-bordered table-inversed">
+                        <thead class="thead-inverse">
+                            <tr>
+                                <th>Extended Reality Development</th>
+                                <th>Experience in Years</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>HTC Vive (Unity)</td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <td>Oculus Rift (Unity)</td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <td>Google Daydream (Unity)</td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <td>Samsung Gear (Unity)</td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <td>Web-VR (A-Frame)</td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <td>Microsoft HoloLens (Unity)</td>
+                                <td>1</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
@@ -443,6 +480,29 @@
             </div>
         </div>
     </section>
+
+    <aside class="bg-dark aside" id="web-vr" style="margin-bottom: -100px">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <h2>Check out a cool 360 snapshot I took at Ultra Music Festival 2017!</br></br>Click and hold to move the Web-VR screen below to view from any angle!</h2>
+                <!--<a href="http://startbootstrap.com/template-overviews/creative/" class="btn btn-default btn-xl sr-button">Download Now!</a>-->
+            </div>
+        </div>
+    </aside>
+
+    <div style="width: 100%; height: 50%; float:right; margin-top:100px; padding-bottom:100px; padding-left:20%; padding-right: 20%; background-color: #222;">
+        <a-scene embedded>
+            <a-assets>
+                <img id="ultra" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/cubes.jpg">
+                <!--<video id="ultra2017" crossorigin="anonymous" src="videos/moon360.mp4" autoplay></video>-->
+            </a-assets>
+            <a-sky src="#ultra"></a-sky>
+            <a-entity position="0 0 0">
+                <a-camera></a-camera>
+            </a-entity>
+            <!--<a-videosphere src="#ultra2017" autoplay="true"></a-videosphere>-->
+        </a-scene>
+    </div>
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
