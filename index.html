@@ -493,13 +493,14 @@
     <div style="width: 100%; height: 50%; float:right; margin-top:100px; padding-bottom:100px; padding-left:20%; padding-right: 20%; background-color: #222;">
         <a-scene embedded>
             <a-assets>
-                <img id="ultra" crossorigin="anonymous" src="https://cdn.aframe.io/360-image-gallery-boilerplate/img/cubes.jpg">
+                <img id="ultra" crossorigin="anonymous" src="img/ultra.jpg" poster="ultrabackup.jpg">
                 <!--<video id="ultra2017" crossorigin="anonymous" src="videos/moon360.mp4" autoplay></video>-->
             </a-assets>
             <a-sky src="#ultra"></a-sky>
             <a-entity position="0 0 0">
                 <a-camera></a-camera>
             </a-entity>
+            <a-image src="#ultra"></a-image>
             <!--<a-videosphere src="#ultra2017" autoplay="true"></a-videosphere>-->
         </a-scene>
     </div>
