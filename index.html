@@ -52,6 +52,8 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <!-- A-Frame 0.6.1 -->
+    <script src="https://aframe.io/releases/0.6.1/aframe.min.js"></script>
 </head>
 
 <body id="page-top">
@@ -204,21 +206,8 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="https://www.youtube.com/playlist?list=PLwOpE5mgplNaqZ4qnQ6j0jWn-F6xZVJ8z" class="portfolio-box" target="_blank">
-                        <img src="img/portfolio/thumbnails/6.png" class="img-responsive" alt="Microsoft HoloLens Collection">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-name">Microsoft HoloLens Works</div>
-                                    <div class="project-category text-faded">3 Microsoft HoloLens Apps: An interactive astronaut, a digital pet, and Spider Slayer, a game where you must swat off spiders in mixed reality (3 YouTube Videos)</div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
                     <a href="https://aframe-demo.glitch.me/" class="portfolio-box" target="_blank">
-                        <img src="img/portfolio/thumbnails/6.png" class="img-responsive" alt="A-Frame Web VR Playground">
+                        <img src="img/portfolio/thumbnails/7.png" class="img-responsive" alt="A-Frame Web VR Playground">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="portfolio-box-caption-content">
@@ -231,12 +220,26 @@
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <a href="https://three-js-avatar.glitch.me/" class="portfolio-box" target="_blank">
-                        <img src="img/portfolio/thumbnails/6.png" class="img-responsive" alt="Three.js Avatar Manipulator">
+                        <img src="img/portfolio/thumbnails/8.png" class="img-responsive" alt="Three.js Avatar Manipulator">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="portfolio-box-caption-content">
                                     <div class="project-name">Three.js Avatar Manipulator</div>
                                     <div class="project-category text-faded">Manipulate the bones of an avatar modeled in Blender in a Three.js scene</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-sm-6">
+                    <a href="https://www.youtube.com/playlist?list=PLwOpE5mgplNaqZ4qnQ6j0jWn-F6xZVJ8z" class="portfolio-box" target="_blank">
+                        <img src="img/portfolio/thumbnails/9.png" class="img-responsive" alt="Microsoft HoloLens Collection">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="portfolio-box-caption-content">
+                                    <div class="project-name">Microsoft HoloLens Works</div>
+                                    <div class="project-category text-faded">3 Microsoft HoloLens Apps: An interactive astronaut, a digital pet, and Spider Slayer, a game where you must swat off spiders in mixed reality (3 YouTube Videos)</div>
                                 </div>
                             </div>
                         </div>
@@ -531,9 +534,6 @@
     <!-- Theme JavaScript -->
     <script src="js/creative.min.js"></script>
 
-    <!-- A-Frame 0.6.1 -->
-    <script src="https://aframe.io/releases/0.6.1/aframe.min.js"></script>
-
     <aside class="bg-dark aside" id="web-vr" style="margin-bottom: -100px">
         <div class="container text-center">
             <div class="call-to-action">
@@ -545,15 +545,15 @@
 
     <div style="width: 100%; height: 50%; float:right; margin-top:100px; padding-bottom:100px; padding-left:20%; padding-right: 20%; background-color: #222;">
         <a-scene embedded>
-            <a-assets>
+            <!--<a-assets>
                 <img id="ultra" crossorigin="anonymous" src="img/ultra.jpg" poster="ultrabackup.jpg">
-                <!--<video id="ultra2017" crossorigin="anonymous" src="videos/ultra.mp4" autoplay></video>-->
-            </a-assets>
-            <a-sky src="#ultra"></a-sky>
+                <video id="ultra2017" crossorigin="anonymous" src="videos/ultra.mp4" autoplay></video>
+            </a-assets>-->
+            <a-sky src="img/ultra.jpg"></a-sky>
             <a-entity position="0 0 0">
                 <a-camera></a-camera>
             </a-entity>
-            <a-image src="#ultra"></a-image>
+            <!--<a-image src="img/ultra.jpg"></a-image>-->
             <!--<a-videosphere src="#ultra2017" autoplay="true"></a-videosphere>-->
         </a-scene>
     </div>
