@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="en" prefix="og: http://ogp.me/ns#">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
 
 <head>
 
@@ -13,21 +13,22 @@
     <link rel="author" href="https://plus.google.com/+EJMann"/>
 
     <meta property='og:title' content="Eustace R Mann Jr" />
-    <meta property="og:image" content="http://ejmanngamedev.com/img/portfolio/thumbnails/headerThumb.jpg" />
+    <meta property="og:image" content="http://ejmanngamedev.com/img/linkedin/webvrplaygroundlinkedin.png" />
+    <meta property="og:url" content="http://www.ejmanngamedev.com/" />
+    <meta property="og:type" content="website" />
     <meta property='og:description' content="An online portfolio of Eustace R Mann Jr, a skilled Game and Virtual Reality Developer. Click here to see his games and apps!" />
     <meta property="og:site_name" content="Eustace R Mann Jr">
     <meta property="og:see_also" content="http://ejmanngamedev.com/index.html">
 
     <meta itemprop="name" content="Eustace R Mann Jr">
     <meta itemprop="description" content="An online portfolio of Eustace R Mann Jr, a skilled Game and Virtual Reality Developer. Click here to see his games and apps!">
-    <meta itemprop="image" content="http://ejmanngamedev.com/img/portfolio/thumbnails/headerThumb.jpg">
+    <meta itemprop="image" content="http://ejmanngamedev.com/img/linkedin/webvrplaygroundlinkedin.png">
 
     <meta name="twitter:card" content="Eustace R Mann Jr">
     <meta name="twitter:url" content="http://ejmanngamedev.com">
     <meta name="twitter:title" content="Eustace R Mann Jr">
     <meta name="twitter:description" content="An online portfolio of Eustace R Mann Jr, a skilled Game and Virtual Reality Developer. Click here to see his games and apps!">
-    <meta name="twitter:image" content="http://ejmanngamedev.com/img/portfolio/thumbnails/headerThumb.jpg">
-
+    <meta name="twitter:image" content="http://ejmanngamedev.com/img/linkedin/webvrplaygroundlinkedin.png">
 
     <title>Eustace R Mann Jr</title>
 
@@ -540,12 +541,12 @@
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
     <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
@@ -556,23 +557,16 @@
         <div class="container text-center">
             <div class="call-to-action">
                 <h2>Check out a cool 360 snapshot I took at Ultra Music Festival 2017!</br></br>Click and hold to move the Web-VR screen below to view from any angle!</h2>
-                <!--<a href="http://startbootstrap.com/template-overviews/creative/" class="btn btn-default btn-xl sr-button">Download Now!</a>-->
             </div>
         </div>
     </aside>
 
     <div style="width: 100%; height: 50%; float:right; margin-top:100px; padding-bottom:100px; padding-left:20%; padding-right: 20%; background-color: #222;">
         <a-scene embedded>
-            <!--<a-assets>
-                <img id="ultra" crossorigin="anonymous" src="img/ultra.jpg" poster="ultrabackup.jpg">
-                <video id="ultra2017" crossorigin="anonymous" src="videos/ultra.mp4" autoplay></video>
-            </a-assets>-->
             <a-sky src="img/ultra.jpg"></a-sky>
             <a-entity position="0 0 0">
                 <a-camera></a-camera>
             </a-entity>
-            <!--<a-image src="img/ultra.jpg"></a-image>-->
-            <!--<a-videosphere src="#ultra2017" autoplay="true"></a-videosphere>-->
         </a-scene>
     </div>
 
