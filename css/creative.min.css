@@ -59,7 +59,7 @@ p {
 }
 
 .bg-dark {
-    background-color: #222;
+    background-color: #444;
     color: #fff
 }
 
@@ -288,7 +288,7 @@ header {
     top: 50%;
     color: #FFFFFF;
     transform: translateY(-50%);
-    
+
 }
 
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category, .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
