@@ -44,6 +44,7 @@
 
     <!-- Theme CSS -->
     <link href="css/creative.min.css" rel="stylesheet">
+    <link href="css/app_scroller.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -56,7 +57,7 @@
     <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
 </head>
 
-<body id="page-top">
+<body id="page-top" style="overflow-x: hidden;">
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -129,158 +130,172 @@
         </div>
     </aside>
 
-    <section class="no-padding" style="background-color: #444444">
-        <div class="container-fluid">
-            <div class="row no-gutter"> <!--popup-gallery-->
-                <div class="col-lg-3">
-                    <a href="videos/xvrtrailer.mp4" class="portfolio-box" target="_blank">
-                        <img src="img/portfolio/thumbnails/1.png" class="img-responsive" alt="Xfinity VR">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-name">Xfinity VR</div>
-                                <div class="project-category text-faded">A virtual reality app made with Unity that brings Comcast's 360 video library to the Samsung Gear and Google Daydream</div>
-                            </div>
-                        </div>
-                    </a>
+    <section id="app_section" class="no-padding" style="background-color: #444444">
+        <div id="app_container">
+            <div id="app_collection" class="row" style="width: 2000px;"> <!--popup-gallery-->
+                <div id="scroller" style="width: 2000px; height: 400px; margin: 0 auto;">
+                    <div id="app_list_1" class="innerScrollArea">
+                        <ul>
+                            <!-- Define photos here -->
+                            <li>
+                                <a href="videos/xvrtrailer.mp4" class="portfolio-box" target="_blank">
+                                    <img src="img/portfolio/thumbnails/1.png" class="img_scroller" alt="Xfinity VR">
+                                    <div class="portfolio-box-caption">
+                                        <div class="portfolio-box-caption-content">
+                                            <div class="project-name">Xfinity VR</div>
+                                            <div class="project-category text-faded">A virtual reality app made with Unity that brings Comcast's 360 video library to the Samsung Gear and Google Daydream</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://fusion.crswll.now.sh/" class="portfolio-box" target="_blank">
+                                    <img src="img/portfolio/thumbnails/food_league.png" class="img_scroller" alt="League of Food Comcast Concept">
+                                    <div class="portfolio-box-caption">
+                                        <div class="portfolio-box-caption-content">
+                                            <div class="portfolio-box-caption-content">
+                                                <div class="project-name">Comcast Fusion Arena Concept App</div>
+                                                <div class="project-category text-faded">A web based mobile app concept for the new Comcast Fusion E-Sports Arena! This app contains a unity game and other cool features for purchasing items and getting discounts on the top items! Best viewed on mobile.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://legend-waitress.herokuapp.com" class="portfolio-box" target="_blank">
+                                    <img src="img/portfolio/thumbnails/12.png" class="img_scroller" alt="Comcast Social Web VR">
+                                    <div class="portfolio-box-caption">
+                                        <div class="portfolio-box-caption-content">
+                                            <div class="portfolio-box-caption-content">
+                                                <div class="project-name">Comcast Social Web VR</div>
+                                                <div class="project-category text-faded">A social virtual reality experience where multiple players can view the same movie trailer & teleport around the map</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://aframe-demo.glitch.me/" class="portfolio-box" target="_blank">
+                                    <img src="img/portfolio/thumbnails/7.png" class="img_scroller" alt="A-Frame Web VR Playground">
+                                    <div class="portfolio-box-caption">
+                                        <div class="portfolio-box-caption-content">
+                                            <div class="portfolio-box-caption-content">
+                                                <div class="project-name">A-Frame Web VR Playground</div>
+                                                <div class="project-category text-faded">A Web VR playground where the user can move around and stretch objects using the Oculus Rift</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://three-js-avatar.glitch.me/" class="portfolio-box" target="_blank">
+                                    <img src="img/portfolio/thumbnails/8.png" class="img_scroller" alt="Three.js Avatar Manipulator">
+                                    <div class="portfolio-box-caption">
+                                        <div class="portfolio-box-caption-content">
+                                            <div class="portfolio-box-caption-content">
+                                                <div class="project-name">Three.js Avatar Manipulator</div>
+                                                <div class="project-category text-faded">Manipulate the bones of an avatar modeled in Blender in a Three.js scene</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://comcast-labs-ar-room.glitch.me/" class="portfolio-box" target="_blank">
+                                    <img src="img/portfolio/thumbnails/10.png" class="img_scroller" alt="Augmented Reality Model">
+                                    <div class="portfolio-box-caption">
+                                        <div class="portfolio-box-caption-content">
+                                            <div class="portfolio-box-caption-content">
+                                                <div class="project-name">Augmented Reality Model</div>
+                                                <div class="project-category text-faded">A reconstucted model of an old workroom using Android's augmented reality constructor & A-Frame Web VR</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-lg-3">
-                    <a href="https://fusion.crswll.now.sh/" class="portfolio-box" target="_blank">
-                        <img src="img/portfolio/thumbnails/food_league.png" class="img-responsive" alt="League of Food Comcast Concept">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-name">Comcast Fusion Arena Concept App</div>
-                                    <div class="project-category text-faded">A web based mobile app concept for the new Comcast Fusion E-Sports Arena! This app contains a unity game and other cool features for purchasing items and getting discounts on the top items! Best viewed on mobile.</div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-3">
-                    <a href="https://legend-waitress.herokuapp.com" class="portfolio-box" target="_blank">
-                        <img src="img/portfolio/thumbnails/12.png" class="img-responsive" alt="Comcast Social Web VR">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-name">Comcast Social Web VR</div>
-                                    <div class="project-category text-faded">A social virtual reality experience where multiple players can view the same movie trailer & teleport around the map</div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-3">
-                    <a href="https://aframe-demo.glitch.me/" class="portfolio-box" target="_blank">
-                        <img src="img/portfolio/thumbnails/7.png" class="img-responsive" alt="A-Frame Web VR Playground">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-name">A-Frame Web VR Playground</div>
-                                    <div class="project-category text-faded">A Web VR playground where the user can move around and stretch objects using the Oculus Rift</div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-3">
-                    <a href="https://three-js-avatar.glitch.me/" class="portfolio-box" target="_blank">
-                        <img src="img/portfolio/thumbnails/8.png" class="img-responsive" alt="Three.js Avatar Manipulator">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-name">Three.js Avatar Manipulator</div>
-                                    <div class="project-category text-faded">Manipulate the bones of an avatar modeled in Blender in a Three.js scene</div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-3">
-                    <a href="MarioCastleAnimation/mariocastle.html" class="portfolio-box" target="_blank">
-                        <img src="img/portfolio/thumbnails/mario_castle.png" class="img-responsive" alt="Castle Animation made with Unity">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-name">Castle Animation</div>
-                                    <div class="project-category text-faded">An animated reconstruction of a familiar video game built with Unity</div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-3">
-                    <a href="https://scene-generator.glitch.me/" class="portfolio-box" target="_blank">
-                        <img src="img/portfolio/thumbnails/3.png" class="img-responsive" alt="Scene Generator">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-name">A-Frame Scene Generator</div>
-                                <div class="project-category text-faded">A Web VR that lets users use voice commands to spawn objects in random places</div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-3">
-                    <a href="https://www.youtube.com/playlist?list=PLwOpE5mgplNaqZ4qnQ6j0jWn-F6xZVJ8z" class="portfolio-box" target="_blank">
-                        <img src="img/portfolio/thumbnails/9.png" class="img-responsive" alt="Microsoft HoloLens Collection">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-name">Microsoft HoloLens Works</div>
-                                    <div class="project-category text-faded">3 Microsoft HoloLens Apps: An interactive astronaut, a digital pet, and Spider Slayer, a game where you must swat off spiders in mixed reality (3 YouTube Videos)</div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-3">
-                    <a href="https://play.google.com/store/apps/details?id=com.ecotechmarine.ecosmartlive_android&hl=en" class="portfolio-box" target="_blank">
-                        <img src="img/portfolio/thumbnails/5.png" class="img-responsive" alt="EcoSmart Live">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-name">EcoSmart Live</div>
-                                <div class="project-category text-faded">An Android application that turns your cell phone into a remote control for fish tank lights and pumps</div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-3">
-                    <a href="http://www.mrblueshirt.com/" class="portfolio-box" target="_blank">
-                        <img src="img/portfolio/thumbnails/6.png" class="img-responsive" alt="Mr. Blue Shirt Website">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-name">Mr. Blue Shirt Website</div>
-                                    <div class="project-category text-faded">A website designed with HTML5, CSS3, and Jquery to promote the Mr. Blue Shirt film series produced by Michael Stewart and Reckoning Force Productions</div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-3">
-                    <a href="https://www.northampton.aaa.com/" class="portfolio-box" target="_blank">
-                        <img src="img/portfolio/thumbnails/4.png" class="img-responsive" alt="AAA Northampton County Website">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-name">AAA Northampton County Website</div>
-                                    <div class="project-category text-faded">A website designed with HTML5, CSS3, and Javascript to assist AAA members in Pennsylvania's Northampton County with their roadside needs</div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-3">
-                    <a href="https://play.google.com/store/apps/details?id=com.bossblockbasketball.bossblockbasketball" class="portfolio-box" target="_blank">
-                        <img src="img/portfolio/thumbnails/2.png" class="img-responsive" alt="Boss Block Basketball">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-name">Boss Block Basketball</div>
-                                    <div class="project-category text-faded">A casual swipe and shoot basketball game made with Unity for Android and iOS</div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+                <div id="scroller2" style="width: 2000px; height: 400px; margin: 0 auto;">
+                    <div id="app_list_2" class="innerScrollArea">
+                        <ul>
+                            <!-- Define photos here -->
+                            <li>
+                                <a href="https://scene-generator.glitch.me/" class="portfolio-box" target="_blank">
+                                    <img src="img/portfolio/thumbnails/3.png" class="img-scroller" alt="Scene Generator">
+                                    <div class="portfolio-box-caption">
+                                        <div class="portfolio-box-caption-content">
+                                            <div class="project-name">A-Frame Scene Generator</div>
+                                            <div class="project-category text-faded">A Web VR that lets users use voice commands to spawn objects in random places</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/playlist?list=PLwOpE5mgplNaqZ4qnQ6j0jWn-F6xZVJ8z" class="portfolio-box" target="_blank">
+                                    <img src="img/portfolio/thumbnails/9.png" class="img-scroller" alt="Microsoft HoloLens Collection">
+                                    <div class="portfolio-box-caption">
+                                        <div class="portfolio-box-caption-content">
+                                            <div class="portfolio-box-caption-content">
+                                                <div class="project-name">Microsoft HoloLens Works</div>
+                                                <div class="project-category text-faded">3 Microsoft HoloLens Apps: An interactive astronaut, a digital pet, and Spider Slayer, a game where you must swat off spiders in mixed reality (3 YouTube Videos)</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://play.google.com/store/apps/details?id=com.ecotechmarine.ecosmartlive_android&hl=en" class="portfolio-box" target="_blank">
+                                    <img src="img/portfolio/thumbnails/5.png" class="img-scroller" alt="EcoSmart Live">
+                                    <div class="portfolio-box-caption">
+                                        <div class="portfolio-box-caption-content">
+                                            <div class="project-name">EcoSmart Live</div>
+                                            <div class="project-category text-faded">An Android application that turns your cell phone into a remote control for fish tank lights and pumps</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.mrblueshirt.com/" class="portfolio-box" target="_blank">
+                                    <img src="img/portfolio/thumbnails/6.png" class="img-scroller" alt="Mr. Blue Shirt Website">
+                                    <div class="portfolio-box-caption">
+                                        <div class="portfolio-box-caption-content">
+                                            <div class="portfolio-box-caption-content">
+                                                <div class="project-name">Mr. Blue Shirt Website</div>
+                                                <div class="project-category text-faded">A website designed with HTML5, CSS3, and Jquery to promote the Mr. Blue Shirt film series produced by Michael Stewart and Reckoning Force Productions</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.northampton.aaa.com/" class="portfolio-box" target="_blank">
+                                    <img src="img/portfolio/thumbnails/4.png" class="img-scroller" alt="AAA Northampton County Website">
+                                    <div class="portfolio-box-caption">
+                                        <div class="portfolio-box-caption-content">
+                                            <div class="portfolio-box-caption-content">
+                                                <div class="project-name">AAA Northampton County Website</div>
+                                                <div class="project-category text-faded">A website designed with HTML5, CSS3, and Javascript to assist AAA members in Pennsylvania's Northampton County with their roadside needs</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://play.google.com/store/apps/details?id=com.bossblockbasketball.bossblockbasketball" class="portfolio-box" target="_blank">
+                                    <img src="img/portfolio/thumbnails/2.png" class="img-scroller" alt="Boss Block Basketball">
+                                    <div class="portfolio-box-caption">
+                                        <div class="portfolio-box-caption-content">
+                                            <div class="portfolio-box-caption-content">
+                                                <div class="project-name">Boss Block Basketball</div>
+                                                <div class="project-category text-faded">A casual swipe and shoot basketball game made with Unity for Android and iOS</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -602,6 +617,7 @@
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="js/app_animator.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
