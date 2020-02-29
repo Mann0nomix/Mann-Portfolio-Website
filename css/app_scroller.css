@@ -1,6 +1,7 @@
 /* Scroller 1 */
 #scroller {
     position: relative;
+    width: 110%;
 }
 #scroller .innerScrollArea {
     overflow: hidden;
@@ -25,6 +26,7 @@
 /* Scroller 2 */
 #scroller2 {
     position: relative;
+    width: 110%;
 }
 #scroller2 .innerScrollArea {
     overflow: hidden;
