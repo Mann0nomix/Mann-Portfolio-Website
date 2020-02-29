@@ -81,5 +81,5 @@ $(function(){
         scroller2.scrollLeft(newX2);
     };
     setInterval(doScroll2, 20);
-    tweenToNewSpeed2(controller2.fullSpeed);
+    tweenToNewSpeed2(controller2.fullSpeed2);
 });
