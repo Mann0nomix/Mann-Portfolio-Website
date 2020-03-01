@@ -55,7 +55,7 @@ $(function(){
     var viewportW2 = scroller2.width();
 
     // Scrolling speed management
-    var controller2 = {curSpeed2:0, fullSpeed2:2};
+    var controller2 = {curSpeed2:0, fullSpeed2:1.5};
     var $controller2 = $(controller2);
     var tweenToNewSpeed2 = function(newSpeed2, duration2)
     {

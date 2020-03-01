@@ -49,7 +49,7 @@
 }
 
 /* img sizing inside of scroller */
-.img_scroller {
-    width: 39em;
-    height: 21em;
+.img-scroller {
+    width: 39vw;
+    height: 21vw;
 }
