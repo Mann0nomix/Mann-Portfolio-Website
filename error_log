@@ -1,0 +1,43 @@
+[15-May-2018 19:56:07 UTC] PHP Warning:  strpos(): Empty needle in /home3/ejmannga/public_html/wp-includes/functions.php on line 4338
+[15-May-2018 19:56:08 UTC] PHP Warning:  strpos(): Empty needle in /home3/ejmannga/public_html/wp-includes/functions.php on line 4338
+[15-May-2018 19:56:08 UTC] mojo_plugin_activated
+[08-Mar-2020 23:39:54 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function split() in /home3/ejmannga/public_html/mini.php(8) : eval()'d code(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code:100
+Stack trace:
+#0 /home3/ejmannga/public_html/mini.php(8) : eval()'d code(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1): eval()
+#1 /home3/ejmannga/public_html/mini.php(8) : eval()'d code(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1): eval()
+#2 /home3/ejmannga/public_html/mini.php(8) : eval()'d code(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1): eval()
+#3 /home3/ejmannga/public_html/mini.php(8) : eval()'d code(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1): eval()
+#4 /home3/ejmannga/public_html/mini.php(8) : eval()'d code(2) : eval()'d code(1) : eval()'d code(1): eval()
+#5 /home3/ejmannga/public_html/min in /home3/ejmannga/public_html/mini.php(8) : eval()'d code(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code on line 100
+[08-Mar-2020 23:40:09 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function split() in /home3/ejmannga/public_html/mini.php(8) : eval()'d code(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code:100
+Stack trace:
+#0 /home3/ejmannga/public_html/mini.php(8) : eval()'d code(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1): eval()
+#1 /home3/ejmannga/public_html/mini.php(8) : eval()'d code(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1): eval()
+#2 /home3/ejmannga/public_html/mini.php(8) : eval()'d code(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1): eval()
+#3 /home3/ejmannga/public_html/mini.php(8) : eval()'d code(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1): eval()
+#4 /home3/ejmannga/public_html/mini.php(8) : eval()'d code(2) : eval()'d code(1) : eval()'d code(1): eval()
+#5 /home3/ejmannga/public_html/min in /home3/ejmannga/public_html/mini.php(8) : eval()'d code(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code on line 100
+[13-Mar-2020 10:07:51 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function split() in /home3/ejmannga/public_html/mini.php(8) : eval()'d code(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code:100
+Stack trace:
+#0 /home3/ejmannga/public_html/mini.php(8) : eval()'d code(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1): eval()
+#1 /home3/ejmannga/public_html/mini.php(8) : eval()'d code(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1): eval()
+#2 /home3/ejmannga/public_html/mini.php(8) : eval()'d code(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1): eval()
+#3 /home3/ejmannga/public_html/mini.php(8) : eval()'d code(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1): eval()
+#4 /home3/ejmannga/public_html/mini.php(8) : eval()'d code(2) : eval()'d code(1) : eval()'d code(1): eval()
+#5 /home3/ejmannga/public_html/min in /home3/ejmannga/public_html/mini.php(8) : eval()'d code(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code on line 100
+[13-Mar-2020 10:08:24 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function split() in /home3/ejmannga/public_html/mini.php(8) : eval()'d code(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code:100
+Stack trace:
+#0 /home3/ejmannga/public_html/mini.php(8) : eval()'d code(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1): eval()
+#1 /home3/ejmannga/public_html/mini.php(8) : eval()'d code(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1): eval()
+#2 /home3/ejmannga/public_html/mini.php(8) : eval()'d code(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1): eval()
+#3 /home3/ejmannga/public_html/mini.php(8) : eval()'d code(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1): eval()
+#4 /home3/ejmannga/public_html/mini.php(8) : eval()'d code(2) : eval()'d code(1) : eval()'d code(1): eval()
+#5 /home3/ejmannga/public_html/min in /home3/ejmannga/public_html/mini.php(8) : eval()'d code(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code on line 100
+[13-Mar-2020 10:36:55 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function split() in /home3/ejmannga/public_html/mini.php(8) : eval()'d code(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code:100
+Stack trace:
+#0 /home3/ejmannga/public_html/mini.php(8) : eval()'d code(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1): eval()
+#1 /home3/ejmannga/public_html/mini.php(8) : eval()'d code(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1): eval()
+#2 /home3/ejmannga/public_html/mini.php(8) : eval()'d code(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1): eval()
+#3 /home3/ejmannga/public_html/mini.php(8) : eval()'d code(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1): eval()
+#4 /home3/ejmannga/public_html/mini.php(8) : eval()'d code(2) : eval()'d code(1) : eval()'d code(1): eval()
+#5 /home3/ejmannga/public_html/min in /home3/ejmannga/public_html/mini.php(8) : eval()'d code(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code(1) : eval()'d code on line 100
